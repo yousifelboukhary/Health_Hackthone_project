@@ -1,0 +1,3 @@
+C:/Users/lenovo/CLionProjects/symptoms_clustering/cmake-build-debug/CMakeFiles/symptoms_clustering.dir
+C:/Users/lenovo/CLionProjects/symptoms_clustering/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lenovo/CLionProjects/symptoms_clustering/cmake-build-debug/CMakeFiles/rebuild_cache.dir
