@@ -3,4 +3,4 @@ project(symptoms_clustering)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(symptoms_clustering main.cpp symptoms_matrix.cpp symptoms_matrix.h)
+add_executable(symptoms_clustering main.cpp symptoms_matrix.cpp symptoms_matrix.h K_means.cpp K_means.h)

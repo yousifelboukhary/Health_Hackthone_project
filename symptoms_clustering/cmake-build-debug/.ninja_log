@@ -1,4 +1,9 @@
 # ninja log v5
-4	1429	6875017351377020	CMakeFiles/symptoms_clustering.dir/main.cpp.obj	ff31bd41fefa2cbe
-1	1761	6875017354688166	CMakeFiles/symptoms_clustering.dir/symptoms_matrix.cpp.obj	e35726b91cd26fce
-1762	1970	6875017356742304	symptoms_clustering.exe	bac3eef2b36ee277
+5	4136	6875614951470632	CMakeFiles/symptoms_clustering.dir/main.cpp.obj	ff31bd41fefa2cbe
+15	4424	6875614954362907	CMakeFiles/symptoms_clustering.dir/symptoms_matrix.cpp.obj	e35726b91cd26fce
+10	4374	6875614953854276	CMakeFiles/symptoms_clustering.dir/K_means.cpp.obj	f6b23b78cc9781ea
+4424	5233	6875614962441665	symptoms_clustering.exe	2f536450747e2511
+4	2052	6875615760401324	CMakeFiles/symptoms_clustering.dir/main.cpp.obj	ff31bd41fefa2cbe
+2052	2718	6875615767033759	symptoms_clustering.exe	2f536450747e2511
+6	2343	6875616099403713	CMakeFiles/symptoms_clustering.dir/K_means.cpp.obj	f6b23b78cc9781ea
+2343	3073	6875616106674169	symptoms_clustering.exe	2f536450747e2511

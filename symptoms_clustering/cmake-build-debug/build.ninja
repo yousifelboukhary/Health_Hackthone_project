@@ -61,6 +61,12 @@ build CMakeFiles/symptoms_clustering.dir/symptoms_matrix.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\symptoms_clustering.dir
   OBJECT_FILE_DIR = CMakeFiles\symptoms_clustering.dir
 
+build CMakeFiles/symptoms_clustering.dir/K_means.cpp.obj: CXX_COMPILER__symptoms_clustering_Debug C$:/Users/lenovo/CLionProjects/symptoms_clustering/K_means.cpp || cmake_object_order_depends_target_symptoms_clustering
+  DEP_FILE = CMakeFiles\symptoms_clustering.dir\K_means.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\symptoms_clustering.dir
+  OBJECT_FILE_DIR = CMakeFiles\symptoms_clustering.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target symptoms_clustering
@@ -69,7 +75,7 @@ build CMakeFiles/symptoms_clustering.dir/symptoms_matrix.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable symptoms_clustering.exe
 
-build symptoms_clustering.exe: CXX_EXECUTABLE_LINKER__symptoms_clustering_Debug CMakeFiles/symptoms_clustering.dir/main.cpp.obj CMakeFiles/symptoms_clustering.dir/symptoms_matrix.cpp.obj
+build symptoms_clustering.exe: CXX_EXECUTABLE_LINKER__symptoms_clustering_Debug CMakeFiles/symptoms_clustering.dir/main.cpp.obj CMakeFiles/symptoms_clustering.dir/symptoms_matrix.cpp.obj CMakeFiles/symptoms_clustering.dir/K_means.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\symptoms_clustering.dir
