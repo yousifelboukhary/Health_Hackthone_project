@@ -40,7 +40,8 @@ vector<vector<int>> symptoms_matrix::number_matrix(ifstream &in) {
     }
     i=0;
     for(const auto & disease: diseases_set){
-        diseases[disease] = i++;
+        numbered_diseases[disease] = i;
+        named_diseases[i++] = disease;
     }
     i=0;
 
@@ -55,4 +56,28 @@ vector<vector<int>> symptoms_matrix::number_matrix(ifstream &in) {
         euclidian_matrix[i++] = v;
     }
     return euclidian_matrix;
+}
+
+const set<string> &symptoms_matrix::getSymptoms() const {
+    return symptoms;
+}
+
+const set<string> &symptoms_matrix::getDiseasesSet() const {
+    return diseases_set;
+}
+
+const map<string, int> &symptoms_matrix::getDiseases() const {
+    return numbered_diseases;
+}
+
+const map<string, int> &symptoms_matrix::getNumberingSymptoms() const {
+    return numbering_symptoms;
+}
+
+const vector<vector<string>> &symptoms_matrix::getDiseasesSymptoms() const {
+    return diseases_symptoms;
+}
+
+const map<int, string> &symptoms_matrix::getNamedDiseases() const {
+    return named_diseases;
 }
